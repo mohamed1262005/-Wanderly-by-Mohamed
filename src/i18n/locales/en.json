@@ -1,0 +1,169 @@
+{
+  "brand": "Wanderly | Mohamed Sameh",
+  "nav": {
+    "home": "Home",
+    "search": "Search",
+    "bookings": "Bookings",
+    "feedback": "Feedback",
+    "profile": "Profile",
+    "login": "Log in",
+    "signup": "Sign up",
+    "logout": "Log out",
+    "language": "Language",
+    "theme": "Theme"
+  },
+  "common": {
+    "from": "From",
+    "to": "To",
+    "date": "Date",
+    "passengers": "Passengers",
+    "class": "Class",
+    "search": "Search",
+    "book": "Book with Mohamed",
+    "compare": "Compare",
+    "details": "Details",
+    "cheapest": "Cheapest",
+    "best": "Best deal",
+    "rating": "Rating",
+    "price": "Price",
+    "duration": "Duration",
+    "location": "Location",
+    "destination": "Destination",
+    "budget": "Budget",
+    "guests": "Guests",
+    "rooms": "Rooms",
+    "checkIn": "Check in",
+    "checkOut": "Check out",
+    "back": "Back",
+    "continue": "Continue",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "save": "Save",
+    "loading": "Loading...",
+    "viewAll": "View all",
+    "specialOffer": "Special offer",
+    "bestValue": "Best value",
+    "night": "night",
+    "perPerson": "per person",
+    "currency": "$",
+    "sortBy": "Sort by",
+    "filters": "Filters",
+    "noResults": "No results match your filters.",
+    "clearFilters": "Clear filters",
+    "favorites": "Favorites",
+    "addedToFavorites": "Added to favorites",
+    "removedFromFavorites": "Removed from favorites"
+  },
+  "tabs": {
+    "flights": "Flights",
+    "hotels": "Hotels",
+    "trips": "Trips"
+  },
+  "classOptions": {
+    "economy": "Economy",
+    "business": "Business",
+    "first": "First class"
+  },
+  "home": {
+    "heroTitle": "Plan Your Next Adventure with Mohamed",
+    "heroSubtitle": "A smart travel platform for comparing flights and hotels, developed by Mohamed Sameh for a seamless experience.",
+    "featured": "Hand-picked Destinations",
+    "featuredSubtitle": "Top journeys personally recommended by Mohamed.",
+    "whyTitle": "Why Book With Us",
+    "why1": "Smart Search Algorithms",
+    "why1d": "We use advanced tech to ensure you get the smartest and cheapest deals available.",
+    "why2": "Trusted & Secure",
+    "why2d": "A robust booking system trusted by travelers around the globe.",
+    "why3": "Developed by Mohamed",
+    "why3d": "An innovative project built and maintained by Mohamed Sameh."
+  },
+  "search": {
+    "title": "Search",
+    "results": "{{count}} results found",
+    "highlightCheap": "Cheapest pick"
+  },
+  "booking": {
+    "title": "Complete your booking",
+    "summary": "Booking summary",
+    "traveler": "Traveler info",
+    "fullName": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "selectSeat": "Select your seat",
+    "selectRoom": "Select your room",
+    "available": "Available",
+    "selected": "Selected",
+    "taken": "Taken",
+    "proceedPayment": "Proceed to payment"
+  },
+  "payment": {
+    "title": "Payment",
+    "secure": "Secure Payment — Advanced encryption to protect your data.",
+    "cardName": "Name on card",
+    "cardNumber": "Card number",
+    "expiry": "MM / YY",
+    "cvc": "CVC",
+    "pay": "Pay {{amount}}",
+    "processing": "Processing payment...",
+    "success": "Payment successful!",
+    "successSub": "Your booking is confirmed, enjoy your trip!"
+  },
+  "confirm": {
+    "title": "Booking confirmed",
+    "id": "Booking ID",
+    "download": "Download ticket",
+    "viewBookings": "View my bookings",
+    "thanks": "Thank you for choosing Mohamed's platform (Wanderly)!"
+  },
+  "feedback": {
+    "title": "Share your feedback",
+    "subtitle": "Your feedback helps Mohamed improve this platform.",
+    "rating": "Your rating",
+    "message": "Your message",
+    "submit": "Submit feedback",
+    "thanks": "Thank you! We'll work on making your experience even better."
+  },
+  "auth": {
+    "loginTitle": "Welcome back",
+    "loginSub": "Log in for a personalized travel experience.",
+    "signupTitle": "Create your account",
+    "signupSub": "Start your journey with Wanderly and Mohamed.",
+    "name": "Full name",
+    "email": "Email address",
+    "password": "Password",
+    "remember": "Remember me",
+    "forgot": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "loginCta": "Log in",
+    "signupCta": "Sign up",
+    "loggedIn": "Welcome back, {{name}}!",
+    "loggedOut": "You have been logged out.",
+    "signedUp": "Account created successfully!"
+  },
+  "profile": {
+    "title": "My profile",
+    "info": "Personal information",
+    "edit": "Edit profile",
+    "saved": "Profile updated",
+    "myBookings": "My bookings",
+    "noBookings": "You have no bookings yet.",
+    "browse": "Browse trips"
+  },
+  "bookings": {
+    "title": "My bookings",
+    "empty": "No bookings yet — start exploring now!"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Enter a valid email",
+    "min": "Must be at least {{n}} characters",
+    "card": "Card number must be 16 digits",
+    "expiry": "Use MM/YY format",
+    "cvc": "CVC must be 3 digits"
+  },
+  "footer": {
+    "tagline": "Built with love by Mohamed Sameh — Travel made delightful.",
+    "rights": "All rights reserved © 2026."
+  }
+}
