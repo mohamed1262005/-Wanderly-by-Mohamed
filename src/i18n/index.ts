@@ -19,13 +19,20 @@ i18n
     interpolation: { escapeValue: false },
   });
 
-const applyDir = (lng: string) => {
-  const dir = lng === "ar" ? "rtl" : "ltr";
-  document.documentElement.setAttribute("dir", dir);
-  document.documentElement.setAttribute("lang", lng);
+const getCleanLng = (lng: string | undefined): string => {
+  if (!lng) return "en";
+  const shortLng = lng.split("-")[0];
+  return ["en", "ar"].includes(shortLng) ? shortLng : "en";
 };
 
-applyDir(i18n.language);
-i18n.on("languageChanged", applyDir);
+const applyDir = (lng: string | undefined) => {
+  const cleanLng = getCleanLng(lng);
+  const dir = cleanLng === "ar" ? "rtl" : "ltr";
+  document.documentElement.setAttribute("dir", dir);
+  document.documentElement.setAttribute("lang", cleanLng);
+};
+
+applyDir(i18n.resolvedLanguage || i18n.language);
+i18n.on("languageChanged", (lng) => applyDir(lng));
 
 export default i18n;
